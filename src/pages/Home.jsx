@@ -15,15 +15,15 @@ const Home = () => {
         <h2 className="text-2xl font-bold mb-3">Prácticas Recientes</h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <li className="bg-white p-4 rounded-md shadow-md">
-            <a href="#" className="text-blue-500">Proyecto 1</a>
+            <div  className="text-blue-500">Proyecto 1</div>
             <p className="mt-2">Descripción corta del proyecto...</p>
           </li>
           <li className="bg-white p-4 rounded-md shadow-md">
-            <a href="#" className="text-blue-500">Proyecto 2</a>
+            <div  className="text-blue-500">Proyecto 2</div>
             <p className="mt-2">Descripción corta del proyecto...</p>
           </li>
           <li className="bg-white p-4 rounded-md shadow-md">
-            <a href="#" className="text-blue-500">Proyecto 3</a>
+            <div  className="text-blue-500">Proyecto 3</div>
             <p className="mt-2">Descripción corta del proyecto...</p>
           </li>
         </ul>
