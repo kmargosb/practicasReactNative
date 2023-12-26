@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 const DigitalClock = () => {
     const [time, setTime] = useState(new Date());
 
+    
+
     // const reloj = setInterval(() => {
     //     setTime(new Date())
     //     console.log(time)
@@ -21,6 +23,7 @@ const DigitalClock = () => {
 
         return () => clearInterval(timer)
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
 
